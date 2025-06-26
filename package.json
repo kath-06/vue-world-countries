@@ -1,0 +1,22 @@
+{
+  "name": "vue-world-countries",
+  "version": "1.0.0",
+  "description": "Vue 3 World Countries",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^3.5.17"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.0",
+    "@vue/compiler-sfc": "^3.5.17",
+    "vite": "^7.0.0"
+  }
+}
