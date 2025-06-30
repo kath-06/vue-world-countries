@@ -1,0 +1,13 @@
+.page {
+    &__container {
+        min-height: 100vh;
+        padding: 20px 30px;
+    }
+    &__title {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-size: 40px;
+        font-weight: bold;
+    }
+}

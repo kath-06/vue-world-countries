@@ -1,7 +1,10 @@
 // LAYOUT HEADER
 @forward './variable';
+@use './variable' as *;
 
 body {
-    margin: 0;
+    background-color: $dark-color;
+    color: $light-color;
     height: 100vh;
+    margin: 0;
 }
