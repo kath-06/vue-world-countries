@@ -1,0 +1,15 @@
+@use '../../variable' as *;
+
+.base-header {
+    &__container {
+        display: flex;
+        align-items: center;
+        background-color: $primary-color;
+        color: #fff;
+        padding: 10px;
+        min-height: 40px;
+    }
+    &__title {
+        font: 20px bold;
+    }
+}

@@ -13,7 +13,10 @@ const layoutMap: Record<string, any> = {
     DefaultLayout
 };
 
+type LayoutKey = keyof typeof layoutMap;
+
 const layout = computed(() => {
-    return layoutMap[route.meta.layout] || DefaultLayout;
+    const layoutKey = route.meta.layout as LayoutKey; 
+    return layoutMap[layoutKey] || DefaultLayout;
 });
 </script>
